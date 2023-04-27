@@ -1,0 +1,57 @@
+<style>
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        body {
+            background-color: coral;
+            padding-top: 10px;
+            z-index: -1;
+        }
+        #parrafo {
+            position: absolute;
+            top: 20px;
+            left: 500px;
+            z-index: 1;
+        }
+        #fecha {
+            position: absolute;
+            left: 50px;
+            top: 500px;
+        } 
+        #Presiona {
+            position: absolute;
+            top: 150px;
+            left: 500px;
+            z-index: 1;
+        }
+        #contenedor {
+            position: relative;
+            bottom: 800px;
+            transform: translateX(0%);
+            height: 100px;
+            width: 25%;
+            margin: 0 auto;
+            overflow: auto;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        #parrafoOculto {
+            display: none;
+            font-size: 50px;
+            z-index: 1;
+        }
+        .paleta {
+            position: relative;
+            top: -1000px;
+            right: -900px;
+        }
+        .huella {
+            position: relative;
+            top: -1000px;
+            right: 200px;
+        }
+        
+</style>
